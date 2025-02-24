@@ -219,21 +219,22 @@ li{
        
 }
 .work-cards-r1 {
-    width: calc(100% - 64px);
+    width:100%;
     height: calc(552px - 88px);
     gap: 32px;
     display: flex;
     flex-direction: row;
 }
 .work-cards-r2 {
-    width: calc(100% - 64px);
+    width: 100%;
     height: calc(552px - 88px);
     gap: 32px;
     display: flex;
     flex-direction: row;
 }
 .card {
-    width: calc(640px - 88px);
+    align-self: center;
+    width: calc(50% - 32px);
     height: calc(552px - 88px);
     gap: 16px;
     padding: 24px;
@@ -243,19 +244,19 @@ li{
     
 }
 .work-photo {
-    width: calc(592px - 88px);
+    width: calc(100% - 5px);
     height: calc(377px - 88px);
     padding-bottom: 16px;
 }
 .card-text {
-    width: calc(592px - 88px);
-    height: calc(98px - 88px);
+    width: calc(100% );
+    height: calc(100vh - 88px);
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 .card-text h3{
-    width: calc(592px - 64px);
+    width: calc(100% - 32px);
     height: calc(36px - 16px); 
     font-family: "Roboto", serif;
     font-weight: 700;
@@ -265,8 +266,8 @@ li{
     color: #000000;
 }
 .card-text p{
-    width: calc(592px - 64px);
-    height: calc(62px - 64px);
+    width: calc(100% - 48px);
+    height: calc(62px - 48px);
     font-family: "Roboto", serif;
     font-weight: 400;
     font-size: 18px;
@@ -277,22 +278,20 @@ li{
 .create-together {
     width: 100%;
     height: 496px;
-    gap: 10px;
-    padding: 95px 100px;
+    padding: 95px 0px;
     background-color: #FFD7D4;
     display: flex;
     flex-direction: column;
-    
+    align-items: center;
+    gap: 38px;
 }
 .create-heading {
     width: 623px;
     height: 119px;
-    gap: 38px;
-    align-self: center;
-    padding: 0px 50px;
+    text-align: center;
 }
 .create-heading h1{
-    width: 568px;
+    width:calc(568px - 100px);
     height: 34px;
     font-family: "Roboto", serif;
     font-weight: 600;
@@ -302,7 +301,7 @@ li{
    margin-bottom: 26px;
 }
 .create-heading p{
-    width: 494;
+    width: calc(494px - 100px);
     height: 59;
     font-family: "Roboto", serif;
     font-weight: 400;
@@ -312,11 +311,67 @@ li{
     text-align: center;
 }
 .infor-card {
-    
+    display: flex;
+    flex-direction: row;
+    gap: 74px;
+    width: calc(100% - 100px);
+    height: 127px;
 }
 .information {
+    width: calc(33.34% - 72px);
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    border: 1px solid #000000;
+    padding: 24px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
 }
-.email-title {
+.email-icon {
+    width: 30.4px;
+    height: 24.3px;
+    color: #FFFFFF;
+    margin: 6px 3px;
+}
+.icon-email{
+    width: 91px;
+    height: 79px;
+    padding: 20px 25px;
+    border-radius: 6px;  
+    border: 1px solid black;
+    background-color: #AC82FC;
+}
+.email{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.email-title{
+    width: calc(213px - 24px);
+    height: 24px;
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+    letter-spacing: 0%;
+
 }
 .email-address {
+    width: calc(213px - 24px);
+    height: 21px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: 0%;
+    color: #565656;
+}
+.footer{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
 }
